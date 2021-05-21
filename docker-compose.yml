@@ -5,11 +5,8 @@ services:
     image: iamapinan/wordpress:latest
     volumes:
       - ./app:/var/www/html
-    #   - ./php/php.ini:/usr/local/etc/php/conf.d/uploads.ini
     networks:
       - public
-    environment:
-      VIRTUAL_HOST: localhost
     ports:
       - 8080:80
     links:
