@@ -1,0 +1,37 @@
+version: '3'
+
+services:
+  app:
+    image: wordpress:latest
+    volumes:
+      - ./app:/var/www/html
+      - ./php/php.ini:/usr/local/etc/php/conf.d/uploads.ini
+    networks:
+      - public
+    environment:
+      VIRTUAL_HOST: localhost
+    ports:
+      - 8080:80
+    links:
+      - db
+      - redis
+
+  db:
+    image: mariadb
+    volumes:
+      - ./db:/var/lib/mysql
+    ports:
+      - 3306
+    environment:
+      MYSQL_DATABASE: web_db
+      MYSQL_ROOT_PASSWORD: securepassword123
+    networks:
+      - public
+
+  redis:
+    image: redis
+    networks:
+      - public
+
+networks:
+  public:
