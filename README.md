@@ -12,7 +12,8 @@ Repository for Basic WordPress training.
 - **Redis** docker image for database cache.
 
 ### Running
-Start service by run command `docker compose up -d` service will run on http://localhost:8080 you can open it with web browser.
+Start service by run command `docker compose up -d` service will runing on http://localhost:8080.   
+you can open it with web browser.
 
 ### Instructor.  
 Apinan Woratrakun (Nu)  
