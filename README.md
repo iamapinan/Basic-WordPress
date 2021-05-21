@@ -1,6 +1,6 @@
 # Basic WordPress Training
 
-Repository for Basic WordPress training 
+Repository for Basic WordPress training.  
 
 ### Prequisite
 - Install docker from https://www.docker.com/get-started for container running.
