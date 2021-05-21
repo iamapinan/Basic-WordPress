@@ -2,10 +2,10 @@ version: '3'
 
 services:
   app:
-    image: wordpress:latest
+    image: iamapinan/wordpress:latest
     volumes:
       - ./app:/var/www/html
-      - ./php/php.ini:/usr/local/etc/php/conf.d/uploads.ini
+    #   - ./php/php.ini:/usr/local/etc/php/conf.d/uploads.ini
     networks:
       - public
     environment:
