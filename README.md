@@ -1,4 +1,5 @@
 # Basic WordPress Training
+[![CodeFactor](https://www.codefactor.io/repository/github/iamapinan/basic-wordpress/badge)](https://www.codefactor.io/repository/github/iamapinan/basic-wordpress)
 
 Repository for Basic WordPress training.  
 
