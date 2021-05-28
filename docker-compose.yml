@@ -3,8 +3,8 @@ version: '3'
 services:
   app:
     image: iamapinan/wordpress:latest
-    volumes:
-      - ./app:/var/www/html
+    # volumes:
+    #   - ./app:/var/www/html
     networks:
       - public
     ports:
@@ -15,8 +15,8 @@ services:
 
   db:
     image: mariadb
-    volumes:
-      - ./db:/var/lib/mysql
+    # volumes:
+    #   - ./db:/var/lib/mysql
     ports:
       - 3306
     environment:
