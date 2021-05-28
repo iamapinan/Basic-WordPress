@@ -25,10 +25,10 @@ services:
     networks:
       - public
 
-  redis:
-    image: redis
-    networks:
-      - public
+  # redis:
+  #   image: redis
+  #   networks:
+  #     - public
 
 networks:
   public:
