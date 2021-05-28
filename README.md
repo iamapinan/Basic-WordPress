@@ -1,7 +1,8 @@
 # WordPress with 500mb upload
 [![CodeFactor](https://www.codefactor.io/repository/github/iamapinan/basic-wordpress/badge)](https://www.codefactor.io/repository/github/iamapinan/basic-wordpress)
 
-Repository for Basic WordPress training. This version of WordPress we increase upload file size to 500mb. 
+Repository for Basic WordPress training. This version of WordPress we increase upload file size to 500mb.   
+The image hosted at https://hub.docker.com/r/iamapinan/wordpress    
 
 ### Prequisite.
 - Install docker from https://www.docker.com/get-started for container running.
