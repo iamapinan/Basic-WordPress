@@ -2,15 +2,9 @@ version: '3'
 
 services:
   app:
-<<<<<<< HEAD
     image: iamapinan/wordpress:latest
     # volumes:
     #   - ./app:/var/www/html
-=======
-    image: iamapinan/wordpress:5.7.2
-    volumes:
-      - ./app:/var/www/html
->>>>>>> 309fc2f64e112a3ecfba6e698f1a9177d5c1046a
     networks:
       - public
     ports:
