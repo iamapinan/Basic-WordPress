@@ -2,7 +2,7 @@ version: '3'
 
 services:
   app:
-    image: iamapinan/wordpress:latest
+    image: iamapinan/wordpress:5.7.2
     volumes:
       - ./app:/var/www/html
     networks:
